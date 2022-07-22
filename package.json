@@ -4,12 +4,14 @@
   "description": "automtizacion para buscar precios",
   "main": "index.js",
   "scripts": {
-    "cy:open": "cypress open",
-    "cy:run": "cypress run"    
+    "cy:open": "cypress open --e2e --browser chrome",
+    "cy:open-wizard": "cypress open"  ,
+    "cy:run": "cypress run --e2e"
   },
   "author": "jose",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^10.3.1"
+    "cypress": "^10.3.1",
+    "cypress-visit-with-custom-geolocation": "^1.0.4"
   }
 }

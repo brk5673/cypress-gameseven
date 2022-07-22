@@ -23,3 +23,6 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+import {registerCommand} from 'cypress-visit-with-custom-geolocation'
+registerCommand();
